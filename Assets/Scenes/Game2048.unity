@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 6616815}
   - component: {fileID: 6616814}
   m_Layer: 5
-  m_Name: Square
+  m_Name: Square0-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 24343959}
   - component: {fileID: 24343958}
   m_Layer: 5
-  m_Name: Square (2)
+  m_Name: Square2-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 65353370}
   - component: {fileID: 65353369}
   m_Layer: 5
-  m_Name: Square
+  m_Name: Square0-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,8 +298,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 196874223}
+  m_Children: []
   m_Father: {fileID: 571205807}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -320,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -344,81 +343,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65353367}
-  m_CullTransparentMesh: 1
---- !u!1 &196874222
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 196874223}
-  - component: {fileID: 196874225}
-  - component: {fileID: 196874224}
-  m_Layer: 5
-  m_Name: Tile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &196874223
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196874222}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 65353368}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 230, y: 230}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &196874224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196874222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.5784977, b: 0.85752344, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &196874225
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196874222}
   m_CullTransparentMesh: 1
 --- !u!1 &461507108
 GameObject:
@@ -785,7 +709,7 @@ GameObject:
   - component: {fileID: 702505565}
   - component: {fileID: 702505564}
   m_Layer: 5
-  m_Name: Square (1)
+  m_Name: Square1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -823,7 +747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -860,7 +784,7 @@ GameObject:
   - component: {fileID: 741832615}
   - component: {fileID: 741832614}
   m_Layer: 5
-  m_Name: Square (3)
+  m_Name: Square3-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -898,7 +822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -935,7 +859,7 @@ GameObject:
   - component: {fileID: 742498759}
   - component: {fileID: 742498758}
   m_Layer: 5
-  m_Name: Square
+  m_Name: Square0-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -973,7 +897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1064,6 +988,68 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &903442366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 903442368}
+  - component: {fileID: 903442367}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &903442367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903442366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6e39a3b013344f48af79a23ccc5f45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _squares:
+  - {fileID: 65353367}
+  - {fileID: 6616812}
+  - {fileID: 742498756}
+  - {fileID: 2120143335}
+  - {fileID: 940741483}
+  - {fileID: 702505562}
+  - {fileID: 1513615826}
+  - {fileID: 1658334560}
+  - {fileID: 2025945949}
+  - {fileID: 2145970174}
+  - {fileID: 24343956}
+  - {fileID: 1562097895}
+  - {fileID: 966328227}
+  - {fileID: 2007331378}
+  - {fileID: 1417997617}
+  - {fileID: 741832612}
+  _tilePrefab: {fileID: 2827176745736546375, guid: d4d4c484a612d45698e92683b23dc5bf, type: 3}
+--- !u!4 &903442368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903442366}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &940741483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,7 +1062,7 @@ GameObject:
   - component: {fileID: 940741486}
   - component: {fileID: 940741485}
   m_Layer: 5
-  m_Name: Square
+  m_Name: Square1-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1114,7 +1100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1151,7 +1137,7 @@ GameObject:
   - component: {fileID: 966328230}
   - component: {fileID: 966328229}
   m_Layer: 5
-  m_Name: Square
+  m_Name: Square3-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1189,7 +1175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1305,7 +1291,7 @@ GameObject:
   - component: {fileID: 1417997620}
   - component: {fileID: 1417997619}
   m_Layer: 5
-  m_Name: Square (2)
+  m_Name: Square3-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1343,7 +1329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1486,7 +1472,7 @@ GameObject:
   - component: {fileID: 1513615829}
   - component: {fileID: 1513615828}
   m_Layer: 5
-  m_Name: Square (2)
+  m_Name: Square1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1524,7 +1510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1561,7 +1547,7 @@ GameObject:
   - component: {fileID: 1562097898}
   - component: {fileID: 1562097897}
   m_Layer: 5
-  m_Name: Square (3)
+  m_Name: Square2-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1599,7 +1585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1636,7 +1622,7 @@ GameObject:
   - component: {fileID: 1658334563}
   - component: {fileID: 1658334562}
   m_Layer: 5
-  m_Name: Square (3)
+  m_Name: Square1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1674,7 +1660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1776,7 +1762,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1813,7 +1799,7 @@ GameObject:
   - component: {fileID: 2007331381}
   - component: {fileID: 2007331380}
   m_Layer: 5
-  m_Name: Square (1)
+  m_Name: Square3-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1851,7 +1837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1954,7 +1940,7 @@ GameObject:
   - component: {fileID: 2025945952}
   - component: {fileID: 2025945951}
   m_Layer: 5
-  m_Name: Square
+  m_Name: Square2-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1992,7 +1978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2029,7 +2015,7 @@ GameObject:
   - component: {fileID: 2120143338}
   - component: {fileID: 2120143337}
   m_Layer: 5
-  m_Name: Square
+  m_Name: Square0-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2067,7 +2053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2104,7 +2090,7 @@ GameObject:
   - component: {fileID: 2145970177}
   - component: {fileID: 2145970176}
   m_Layer: 5
-  m_Name: Square (1)
+  m_Name: Square2-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2142,7 +2128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44459772, g: 0.7326044, b: 0.9716981, a: 1}
+  m_Color: {r: 0.5727127, g: 0.6042215, b: 0.6226415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2175,3 +2161,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1684362450}
   - {fileID: 975496211}
+  - {fileID: 903442368}

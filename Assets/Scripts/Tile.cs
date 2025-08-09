@@ -11,14 +11,14 @@ public class TileData
 }
 public class Tile : MonoBehaviour
 {
-    [SerializeField, Header("色と数字データ")]
-    private TileData[] _tileData;
-    [SerializeField, Header("タイルの色")]
-    private Image _imageColor;
-    [SerializeField, Header("タイル状の数字")]
-    private int _tileValue;
-    [SerializeField, Header("数字のテキスト")]
-    private TMP_Text _valueText;
+    [Header("色と数字データ")]
+    public TileData[] _tileData;
+    [Header("タイルの色")]
+    public Image _imageColor;
+    [Header("タイル状の数字")]
+    public int _tileValue;
+    [Header("数字のテキスト")]
+    public TMP_Text _valueText;
 
     // タイルの値を設定
     public void SetValue(int newValue)
